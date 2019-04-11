@@ -34,9 +34,9 @@ from bs4 import BeautifulSoup
 import collections
 
 
-file = open('C:/Users/Wolfgang/Documents/Australien/Corpus/corpus_material/Cook Islands Maori_TH/Website/Two Stories about Vaitango/PTKairaeVaiTangoStory.eaf', 'r', encoding="utf8")
-fout = open('C:/Users/Wolfgang/Documents/Australien/Corpus/corpus_material/Cook Islands Maori_TH/Website/Two Stories about Vaitango/PTKairaeVaiTangoStory.html', 'w', encoding="utf8")
-output_order = ['S1 Mama Putai Kairae Transcription', 'S1 Mama Putai Kairae Free Translation', 1]
+file = open('C:/path/to/sourceFile.eaf', 'r', encoding="utf8")
+fout = open('C:/path/to/outputFile.html', 'w', encoding="utf8")
+output_order = ['tierOfSource', 'TierWithTranslation', 0] # the number can be changed to add seconds to the timing
 audio_name = 'test.mp3'
 
 # header text icludes the css      
