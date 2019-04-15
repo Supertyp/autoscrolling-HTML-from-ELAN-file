@@ -108,7 +108,7 @@ td.text {
 </head>
 
 <body>
-<h1 id="demo" align="center">David Galbbuma</h1>
+<h1 id="demo" align="center">ELAN - mp3 - Align</h1>
 
 <img src="test_image.png" class="picture" alt="no image available">
 
